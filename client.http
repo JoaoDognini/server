@@ -35,9 +35,9 @@ GET {{baseUrl}}/rooms/{{ roomId }}/questions
 
 # Create question
 # @name createQuestion
-POST {{baseUrl}}/rooms/{{ roomId }}/questions
+POST {{baseUrl}}/rooms/0dbc2f98-4968-44be-4fdb-f399737e5e21/questions
 Content-Type: application/json
 
 {
-	"question": "Como que convive com um esquizofrênico?"
+	"question": "O que é Ascurra?"
 }
